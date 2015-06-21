@@ -1,4 +1,4 @@
-package eu.freakydirac.javapluginseed;
+package eu.freakdirac.GeneralConverter;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
