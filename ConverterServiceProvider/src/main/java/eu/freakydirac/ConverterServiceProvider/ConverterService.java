@@ -8,15 +8,13 @@ import eu.freakydirac.ConverterServiceProvider.spi.Converter;
 
 public class ConverterService
 {
+    // singleton
     private static ConverterService service;
+    // service loader
     private ServiceLoader<Converter> loader;
 
     private ConverterService() {
         loader = ServiceLoader.load(Converter.class);
-        System.out.println("Hello from converter service constructor");
-        System.out.println("loader.iterator().toString()" + loader.iterator().toString());
-        System.out.println("loader.iterator().hasNext()" + loader.iterator().hasNext());
-
     }
 
     public static synchronized ConverterService getInstance() {

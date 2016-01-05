@@ -1,6 +1,5 @@
 package eu.freakydirac.ExtendedConverter;
 
-import eu.freakydirac.ConverterServiceProvider.ConverterService;
 import eu.freakydirac.ConverterServiceProvider.spi.Converter;
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -20,7 +19,7 @@ public class ExtendedConverter implements Converter
                 "this is the fourth value");
     }
 
-    @Override
+
     public String convert(String key) {
         return map.get(key);
     }

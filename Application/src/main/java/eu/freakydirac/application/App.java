@@ -17,6 +17,9 @@ public class App {
     public static String lookup(ConverterService dictionary, String key) {
         String outputString = key + ": ";
         String definition = dictionary.convert(key);
-        return (definition == null)?outputString + "There is no value for this key": outputString + definition;
+        return (definition == null)?outputString + "[ERROR] There is no value for this key": outputString + definition;
     }
+
 }
+
+
