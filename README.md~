@@ -32,5 +32,5 @@ $ ./run.sh
 ```
 
 ## How to add an extention
- 1. copy the extention to the folder: <cloned_project_path>/Application/target/lib 
+ 1. copy the extention to the folder: ```<cloned_project_path>/Application/target/lib ``` 
  2. run the application

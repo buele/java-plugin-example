@@ -12,12 +12,15 @@ Simple plugin system prototype for java
 ```
 cd <cloned_project_path>
 cd ConverterServiceProvider/
+mvn clean package
 mvn install
 cd ..
 cd GeneralConverter/
 mvn clean package
+cd ..
 cd ExtendedConverter/
 mvn clean package
+cd ..
 cd Application
 mvn clean package
 
